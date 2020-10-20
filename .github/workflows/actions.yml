@@ -10,7 +10,8 @@ on:
   pull_request:
     branches: [ master ]
 
-runs:
-  using: 'docker'
-  image: 'smartslab/openipsl'
-  args: 'sh -c "python OpenIPSL/CI/CICheck.py"'
+jobs: 
+  checkCI:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'docker run -i -t -v $(pwd):/OpenIPSL smartslab/openipsl sh -c "python /OpenIPSL/CI/CICheck.py"'
