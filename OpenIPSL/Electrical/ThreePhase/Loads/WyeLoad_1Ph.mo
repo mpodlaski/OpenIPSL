@@ -82,7 +82,7 @@ equation
           origin={18,4},
           lineColor={28,108,200},
           extent={{-62,45},{28,26}},
-          textString="PQ/ZIP Load")}), 
+          textString="PQ/ZIP Load")}),
           Documentation(info="<html>
 <p>This is a single-phase load model.</p>
 <p>The user needs to input the active (<b><i>P_a</i></b>) and reactive (<b><i>Q_a</i></b>) powers consumed by the phase. 

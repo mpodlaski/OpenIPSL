@@ -122,7 +122,7 @@ equation
           origin={18,4},
           lineColor={28,108,200},
           extent={{-62,45},{28,26}},
-          textString="PQ/ZIP Load")}), 
+          textString="PQ/ZIP Load")}),
           Documentation(info="<html>
 <p>This is a two-phase wye load model.</p>
 <p>The user needs to input the active (<b><i>P_a</i></b> and <b><i>P_b</i></b>) and reactive (<b><i>Q_a</i></b> and <b><i>Q_b</i></b>) powers consumed by each of the two phases. 

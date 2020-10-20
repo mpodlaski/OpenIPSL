@@ -22,11 +22,11 @@ model Line_MT "Transmission Line modeled as a PI element with a hybrid interface
         "Norton admittances have finite values"));
 
   // Parameters for the abc model
-  parameter SI.PerUnit Gseraa=0 "Element (1,1) in series conductance matrix" 
+  parameter SI.PerUnit Gseraa=0 "Element (1,1) in series conductance matrix"
     annotation (Dialog(group="Parameters for an 'abc'-Model"));
   parameter SI.PerUnit Bseraa=-10 "Element (1,1) in series susceptance matrix"
     annotation (Dialog(group="Parameters for an 'abc'-Model"));
-  parameter SI.PerUnit Gserab=0 "Element (1,2) in series conductance matrix" 
+  parameter SI.PerUnit Gserab=0 "Element (1,2) in series conductance matrix"
     annotation (Dialog(group="Parameters for an 'abc'-Model"));
   parameter SI.PerUnit Bserab=0 "Element (1,2) in series susceptance matrix"
     annotation (Dialog(group="Parameters for an 'abc'-Model"));

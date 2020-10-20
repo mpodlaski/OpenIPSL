@@ -191,7 +191,7 @@ equation
           origin={18,4},
           lineColor={28,108,200},
           extent={{-62,45},{28,26}},
-          textString="PQ/ZIP Load")}), 
+          textString="PQ/ZIP Load")}),
           Documentation(info="<html>
 <p>This is a three-phase delta load model.</p>
 <p>The user needs to input the active (<b><i>P_ab</i></b>, <b><i>P_bc</i></b> and <b><i>P_ca</i></b>) and reactive (<b><i>Q_ab</i></b>, <b><i>Q_bc</i></b> and <b><i>Q_ca</i></b>) powers consumed between phases. Since the values come from independent parameters, the model allows the representation of unbalanced loads.</p> 

@@ -122,7 +122,7 @@ equation
           origin={18,4},
           lineColor={28,108,200},
           extent={{-62,45},{28,26}},
-          textString="PQ/ZIP Load")}), 
+          textString="PQ/ZIP Load")}),
           Documentation(info="<html>
 <p>This is a two-phase delta load model. The model allows the user to represent active and reactive power beeing consumed between two phases.</p>
 <p>The user needs to input the active (<b><i>P_ab</i></b>) and reactive (<b><i>Q_ab</i></b>) powera consumed between phases one and two (A and B).</p> 
