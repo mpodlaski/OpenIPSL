@@ -13,5 +13,4 @@ on:
 runs:
   using: 'docker'
   image: 'smartslab/openipsl'
-  args:
-    - 'sh -c "python OpenIPSL/CI/CICheck.py"'
+  args: 'sh -c "python OpenIPSL/CI/CICheck.py"'
